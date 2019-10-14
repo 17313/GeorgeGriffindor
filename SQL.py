@@ -1,9 +1,9 @@
 import sqlite3
-
-connection = sqlite3.connect("SQL 1.db")
-c = connection.cursor()
-sql = "SELECT * FROM Chips"
-c.execute(sql)
-results = c.fetchall()
-for Chips in results:
-    print(Chips)
+    
+with sqlite3.connect("BubbleLin.db") as connection:    
+    c = connection.cursor()
+    sql = "SELECT * FROM Bubble_tea"
+    c.execute(sql)
+    results = c.fetchall()
+    for result in results:
+        print("BubbleLin: {0:15} Price: ${1:0}" .format(result[1], result[2]))
