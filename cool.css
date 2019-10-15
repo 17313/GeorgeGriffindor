@@ -1,3 +1,6 @@
 body{
-    background-color: bisque
+    background-color: bisque;
+    background-image: linear-gradient(bisque,green);
+    height: 1080px;
+
 }
