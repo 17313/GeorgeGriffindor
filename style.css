@@ -1,4 +1,20 @@
+head{
+    font-size: 100px
+}
+
 body{
 background-color: #ff4e50;
 background-image: linear-gradient(#ff4e50,#f9d423)
+}
+
+h1{
+font-size: 70px
+}
+
+p{
+    font-size: 20px
+}
+
+b{
+    font-size: 25px
 }
