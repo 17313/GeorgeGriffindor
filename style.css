@@ -1,35 +1,36 @@
 
 
 body{
-background-color: #ff4e50;
-background-image: linear-gradient(#ff4e50,#f9d423);
+background-color: azure;
 }
 
 h1{
 font-size: 70px;
 font-style: normal;
+border-style: solid;
+background-color: azure;
 }
-
-h2{
-    font-size: 50px;
-    font-style: unset;   
-    }
-    
 
 p{
     font-size: 30px;
-    font-style: unset;  
+    font-style: normal;  
+    border-style: solid;
 }
 
 b{
     font-size: 35px;
-    font-style: unset;  
+    font-style: normal;  
 }
 header{
     font-size: 100px;
-    font-style: unset;
+    font-style: normal;
 }
 
+a{
+    font-size: 25px;
+    font-style: normal;
+    color: white;
+}
 
 .center {
     display: block;
@@ -42,6 +43,27 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
 
 table, td, th {
 border: 1px linear-gradient(#ff4e50,#f9d423);;
@@ -74,14 +96,18 @@ padding: 100px;
 #Blue{
     font-size: 80px;
     font-style: unset;
-}
-
-#Purple{
-    background-color: black;
-    color: azure;
-    height: 2%
+    border-style: hidden;
 }
 
 #hello{
     float: center;
+}
+
+#noice{
+    background-color: black;
+    color: azure;
+}
+
+#Orange{
+    background-color: aqua
 }
