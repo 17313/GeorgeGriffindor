@@ -7,21 +7,28 @@ background-image: linear-gradient(#ff4e50,#f9d423);
 
 h1{
 font-size: 70px;
-
+font-style: normal;
 }
+
+h2{
+    font-size: 50px;
+    font-style: unset;   
+    }
+    
 
 p{
     font-size: 30px;
-
-    
+    font-style: unset;  
 }
 
 b{
-    font-size: 25px;
-
+    font-size: 35px;
+    font-style: unset;  
 }
-
-
+header{
+    font-size: 100px;
+    font-style: unset;
+}
 
 
 .center {
@@ -37,7 +44,7 @@ img {
 }
 
 table, td, th {
-border: 1px solid black;
+border: 1px linear-gradient(#ff4e50,#f9d423);;
 padding: 300px
 }
 
@@ -48,5 +55,33 @@ height:100%;
 }
 
 #title{
-    padding: 200%
+padding: 100px;
+}
+
+#Head{
+    background-color: black;
+    color: azure;
+    text-align: center;
+    padding: 2.5%;
+}
+
+#Green{
+    background-color: azure;
+    width:100%;
+    padding: 1%;
+}
+
+#Blue{
+    font-size: 80px;
+    font-style: unset;
+}
+
+#Purple{
+    background-color: black;
+    color: azure;
+    height: 2%
+}
+
+#hello{
+    float: center;
 }
